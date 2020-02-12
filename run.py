@@ -7,7 +7,7 @@ import sys
 from utils import read as rd,element_tojson as etj
 
 headers={"Content-Type":"application/json;charset=utf-8","Accept":"application/json"}
-case='../cases/case1.xlsx'
+case='./cases/case1.xlsx'
 shuju=etj(rd(case))
 url1=shuju['baseUrl']['url']
 
